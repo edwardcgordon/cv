@@ -173,6 +173,7 @@ Page Portfolio
 }
 
 #gallery li {
+  font-size: .75em;
   float: left;
   width: 95%;
   max-width: 250px;
