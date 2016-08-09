@@ -89,6 +89,10 @@ small {
   margin: 0 0 0;
 }
 
+.page-break	{
+  display: none;
+}
+
 /*************************
 Header
 *************************/
@@ -293,3 +297,35 @@ nav a.selected, nav a:hover {
 a {
   color: #e74c3c;
 }
+
+/*********************
+ Print styles
+
+ @media print {
+     body {
+       margin: 0;
+     }
+
+     div {
+       page-break-inside: avoid;
+     }
+
+     nav {
+       display: none;
+     }
+
+     .toc {
+         display: none;
+     }
+
+     section.cv {
+       width: 95%;
+       margin: 0;
+     }
+
+    #logo {
+      display: none;
+    }
+
+ }
+ ********************/
